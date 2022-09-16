@@ -15,3 +15,15 @@ installed express and express-react-views
 | PUT    | /places/:id      | Make changes to existing place                                                  |   |   |   |   |   |   |   |
 | DELETE | /places/:id      | Delete a place                                                                  |   |   |   |   |   |   |   |
 | POST   | /places/:id/rant | Add rant to a place                                                             |   |   |   |   |   |   |   |
+
+| Field    | Type       |   |   |   |   |   |   |   |   |
+|----------|------------|---|---|---|---|---|---|---|---|
+| _id      | Object ID  |   |   |   |   |   |   |   |   |
+| name     | String     |   |   |   |   |   |   |   |   |
+| city     | String     |   |   |   |   |   |   |   |   |
+| state    | String     |   |   |   |   |   |   |   |   |
+| cuisines | String     |   |   |   |   |   |   |   |   |
+| pic      | String     |   |   |   |   |   |   |   |   |
+|          |            |   |   |   |   |   |   |   |   |
+|          |            |   |   |   |   |   |   |   |   |
+|          |            |   |   |   |   |   |   |   |   |
