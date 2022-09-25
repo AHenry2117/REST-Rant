@@ -9,14 +9,14 @@ router.get('/', (req, res) => {
     city: "Orlando",
     state: "FL",
     cuisines: "Thai, Pan-Asian",
-    pic: "http://placekitten.com/250/250",
+    pic: "/images/pad-thai.jpg",
    },
    {
     name: "Coding Cat Cafe",
     city: "Hoboken",
     state: "NJ",
     cuisines: "Coffee, Bakery",
-    pic: "http://placekitten.com/250/250",
+    pic: "/images/Coffee.jpg",
    }];
   res.render('places/index', {places});
 });
