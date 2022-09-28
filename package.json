@@ -23,6 +23,5 @@
     "nodemon": "^2.0.20",
     "react": "^16.14.0"
   },
-  "description": "REST-Rant is an app where users can review restaurants.",
-  "devDependencies": {}
+  "description": "REST-Rant is an app where users can review restaurants."
 }
