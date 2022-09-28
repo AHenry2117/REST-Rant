@@ -3,7 +3,7 @@ h1 {
     color: rgb(11, 126, 192);
   }
   nav {
-    background-color: cornflowerblue;
+    background-color: rgb(11, 126, 192);
     padding: 10px;
 }
 
@@ -23,18 +23,18 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
+    color: rgb(5, 202, 87);
     text-decoration: none;
 }
 body {
-  background-color: lightblue;
+  background-color: rgb(223, 223, 223);
   text-align: center;
 }
 
 main {
   margin-right: 20px;
   margin-left: 20px;
-  background-color: white;
+  background-color: rgb(223, 223, 223);
 }
 
 
