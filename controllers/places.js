@@ -22,7 +22,6 @@ router.post('/', (req, res) => {
   }
   places.push(req.body)
   res.redirect("/places")
-  res.send('POST /places')
 })
 
 router.get('/:id', (req, res) => {
@@ -89,7 +88,13 @@ router.put('/:id', (req, res) => {
       res.redirect(`/places/${id}`)
   }
 })
+router.post("/:id/rant", (req, res) => {
+  res.send("Create a rant (comment) about a particular place");
+});
 
+router.delete("/:id/rant/:rantId", (req, res) => {
+  res.send("Delete a rant (comment) about a particular place");
+});
 
 module.exports = router;
 
