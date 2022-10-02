@@ -24,6 +24,10 @@ installed express and express-react-views
 | state    | String     |   |   |   |   |   |   |   |   |
 | cuisines | String     |   |   |   |   |   |   |   |   |
 | pic      | String     |   |   |   |   |   |   |   |   |
-|          |            |   |   |   |   |   |   |   |   |
-|          |            |   |   |   |   |   |   |   |   |
-|          |            |   |   |   |   |   |   |   |   |
+
+| Field   | Type    | Notes                                                                            |   |   |   |   |   |   |   |
+|---------|---------|----------------------------------------------------------------------------------|---|---|---|---|---|---|---|
+| Type    | string  | Name of comment's writer; defaults to Anonymous if missing.                      |   |   |   |   |   |   |   |
+| Notes   | Boolean | Each comment is either a rant (negative) or a rave (positive). Defaults to false |   |   |   |   |   |   |   |
+| author  | number  | 1 to 5 star rating in increments of 0.5; required, no default                    |   |   |   |   |   |   |   |
+| string  | string  | The written content of the comment; defaults to an empty string.                 |   |   |   |   |   |   |   |
