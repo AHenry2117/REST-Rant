@@ -1,4 +1,3 @@
-
 const mongoose = require("mongoose"); // imports mongoose and saves it to a variable mongoose
 
 const placeSchema = new mongoose.Schema({
