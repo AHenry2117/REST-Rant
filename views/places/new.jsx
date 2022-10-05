@@ -10,7 +10,7 @@ function new_form(data) {
     return (
         <Def>
             <main>
-                <h1>Add a New Place</h1>
+                <h1>Add Place</h1>
                 {message}
                 <form method="POST" action="/places">
                     <div className="form-group">
